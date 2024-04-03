@@ -2,7 +2,7 @@ from telebot import *
 name=''
 course_name=''
 phone_number=''
-bot=bot = telebot.TeleBot("6528231862:AAE-xwlzfCB4MiWka0zcVo0GRcsCQ9xT9lk")
+bot=bot = telebot.TeleBot("Your_Bot_Token")
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
     markup=types.InlineKeyboardMarkup(row_width=1)
